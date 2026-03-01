@@ -1,0 +1,16 @@
+go 1.26.1
+
+use (
+	./api/proto
+	./pkg/config
+	./pkg/grpcutil
+	./pkg/kafka
+	./pkg/logger
+	./pkg/postgres
+	./services/auth
+	./services/gateway
+	./services/inventory
+	./services/notification
+	./services/order
+	./services/payment
+)

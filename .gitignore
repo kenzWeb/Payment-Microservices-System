@@ -1,0 +1,24 @@
+# Binaries
+bin/
+*.exe
+*.test
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Dependencies
+vendor/
+
+# Scratch and temporary scripts
+scratch/
+*.go
+!services/**/*.go
+!pkg/**/*.go
+!api/**/*.go
+!cmd/**/*.go
