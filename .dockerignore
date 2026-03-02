@@ -1,0 +1,10 @@
+.git
+.idea
+.vscode
+*.exe
+*.test
+*.out
+scripts/postgres/data
+.env
+Dockerfile
+docker-compose.yml
