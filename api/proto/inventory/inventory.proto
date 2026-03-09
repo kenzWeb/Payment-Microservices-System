@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package inventory;
+
+option go_package = "github.com/user/payment-microservices/api/proto/inventory";
+
+service InventoryService {
+  rpc CheckStock(CheckStockRequest) returns (CheckStockResponse);
+  rpc DeductStock(DeductStockRequest) returns (DeductStockResponse);
+}
+
+message CheckStockRequest {
+  string product_id = 1;
+  int32 quantity = 2;
+}
+
+message CheckStockResponse {
+  bool available = 1;
+}
+
+message DeductStockRequest {
+  string product_id = 1;
+  int32 quantity = 2;
+}
+
+message DeductStockResponse {
+  bool success = 1;
+}
