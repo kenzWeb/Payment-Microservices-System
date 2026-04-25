@@ -160,6 +160,3 @@ docker run --rm -v "$(pwd):/workspace" -w /workspace/api/proto bufbuild/buf:1.50
 - **Resource Limits**: В Docker настроены лимиты CPU и RAM для предотвращения деградации системы.
 
 ---
-
-## 📝 Лицензия
-Данный проект распространяется под лицензией MIT. Подробности в файле [LICENSE](LICENSE).
