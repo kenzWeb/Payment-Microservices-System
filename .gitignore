@@ -22,3 +22,6 @@ scratch/
 !pkg/**/*.go
 !api/**/*.go
 !cmd/**/*.go
+
+# Environment variables
+.env
